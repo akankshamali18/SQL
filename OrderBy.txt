@@ -1,0 +1,13 @@
+The ORDER BY keyword is used to sort the result-set in ascending or descending order
+
+SELECT * FROM Products
+ORDER BY Price;
+//sorts price by ascending order because default is ascending
+
+SELECT * FROM Products
+ORDER BY Price DESC;
+//Sort the products from highest to lowest price:
+
+
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;

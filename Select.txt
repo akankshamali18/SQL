@@ -1,0 +1,16 @@
+#select
+
+
+Return all the columns from the Customers table:
+SELECT * FROM Customers;
+
+
+Return data from the Customers table:
+SELECT CustomerName, City FROM Customers;
+
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+SELECT DISTINCT Country FROM Customers;
+
+
+By using the DISTINCT keyword in a function called COUNT, we can return the number of different countries.
+SELECT COUNT(DISTINCT Country) FROM Customers;

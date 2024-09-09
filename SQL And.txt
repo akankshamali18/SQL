@@ -1,0 +1,9 @@
+The AND operator is used to filter records based on more than one condition, like if you want to return all customers from india that starts with the letter 'U':
+
+SELECT *
+FROM Customers
+WHERE Country = 'India' AND CustomerName LIKE 'U%';
+
+
+SELECT * FROM Customers
+WHERE Country = 'Japan' AND (CustomerName LIKE 'c%' OR CustomerName LIKE 'j%');
